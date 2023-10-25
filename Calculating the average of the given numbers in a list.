@@ -1,0 +1,10 @@
+n=int(input("enter the total numbers you want in your list: "))
+l=[]
+for i in range(n):
+    ele=int(input("Enter the element: "))
+    l.append(ele)
+print(l)
+addition=sum(l)
+print(addition)
+average=addition/n
+print("average: ",int(average))
